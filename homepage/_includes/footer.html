@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="./assets/academicons-1.9.4/css/academicons.min.css"/>
+
+
+<footer class="pt-5 my-4 text-muted border-top">
+  <div class="row">
+    <div class="col-md-6 text-end social-media-icons">
+      {% for item in site.data.settings.social %}
+      <a href="{{ item.link }}" class="ms-3 fs-1"><i class="fab fa-{{ item.icon }}"></i></a>
+      {% endfor %}
+      {% for item in site.data.settings.academic %}
+      <a href="{{ item.link }}" class="ms-3 fs-7"><i class="ai ai-google-scholar-square ai-3x"></i></a>
+      {% endfor %}
+    </div>
+  </div>
+</footer>

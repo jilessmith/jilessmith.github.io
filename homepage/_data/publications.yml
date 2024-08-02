@@ -1,0 +1,11 @@
+featured:
+- {name: 'Capturing non-Markovian polaron dressing with the master equation formalism, J Iles-Smith, O Diba, and A Nazir', url: 'https://arxiv.org/abs/2407.10744'}
+- {name: 'On-demand heralded MIR single-photon source using a cascaded quantum system, J Iles-Smith et al.', url: 'https://arxiv.org/abs/2405.12777'}
+- {name: 'Quantum Work Statistics at Strong Reservoir Coupling, O Diba, H J D Miller, J Iles-Smith, and A Nazir', url: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.132.190401'}
+- {name: 'Nanocavity enhanced photon coherence of solid-state quantum emitters operating up to 30 K, A Brash and J Iles-Smith',url: 'https://iopscience.iop.org/article/10.1088/2633-4356/acf5c0/meta'}
+
+index:
+- {name: 'Capturing non-Markovian polaron dressing with the master equation formalism',authors: 'J Iles-Smith, O Diba, and A Nazir', journal: 'arxiv', url: 'https://arxiv.org/abs/2407.10744'}
+- {name: 'On-demand heralded MIR single-photon source using a cascaded quantum system', authors: 'J Iles-Smith, MK Svendsen, A Rubio, M Wubs, N Stenger', journal: 'arXiv', url: 'https://arxiv.org/abs/2405.12777'}
+- {name: 'Quantum Work Statistics at Strong Reservoir Coupling', authors: 'O Diba, H J D Miller, J Iles-Smith, and A Nazir', journal: 'Physical Review Letters', url: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.132.190401'}
+# - {name: 'Nanocavity enhanced photon coherence of solid-state quantum emitters operating up to 30 K, A Brash and J Iles-Smith',url: 'https://iopscience.iop.org/article/10.1088/2633-4356/acf5c0/meta'}

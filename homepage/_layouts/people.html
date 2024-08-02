@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<h3 class="fw-bold border-bottom pb-3 mb-5">People</h3>
+{% for person in site.data.settings.people %}
+<div class="row g-5 mb-5">
+  <div class="col-md-6">
+    <font size="+2"><b>{{ person.name }}</b></font>
+    <br>
+    <font size="+2"><b>{{ person.title }}</b></font>
+    <br>
+    <font size="+1">{{ person.institution }}</font>
+    <p>Email: {{ person.email }}</p>
+    {% if person.bio %}
+      <p><p><a href="{{ site.github.url }}/people/{{ person.url }}">More info</a></p></p>
+    {% endif %}
+  </div>
+  <div class="col-md-6">
+    <img src="{{ site.github.url }}/{{ person.image }}" alt="Contact" width="100%">
+  </div>
+</div>
+{% endfor %}

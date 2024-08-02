@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="row g-5 mb-5">
+  <div class="col-md-6">
+    <h3 class="fw-bold">Research</h3>
+    All quantum systems are in principal ‘open’, that is, 
+    a quantum system is influenced in some way by its external environment. 
+    In many cases this induces complex behaviour that cannot be captured using 
+    traditional theoretical methods. 
+    In SOQS we develop novel tools and techniques capable of 
+    describing the behaviour of open quantum systems strongly 
+    coupled to their environment.
+
+    Using these tools we investigate the implications that such interactions have on realistic quantum systems, 
+    with relevance to a broad range of fields, 
+    including: quantum technologies, quantum biology, 
+    and quantum thermodynamics.
+  </div>
+  <div class="col-md-6">
+    <img src="{{ site.github.url }}/assets/img/home.jpg" alt="Home" width="100%">
+  </div>
+</div>
+
+{% include publications.html %}
+
+<div class="row g-5 mb-5">
+  <div class="col-md-12">
+    <h3 class="fw-bold border-bottom pb-3 mb-5">Updates</h3>
+    {% for post in site.posts %}
+      <p><a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}</p>
+    {% endfor %}
+  </div>
+</div>
